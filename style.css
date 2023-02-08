@@ -1,0 +1,64 @@
+
+.ymha_logo {
+    width: 60px;
+}
+
+.header_title {
+    color: #001bb5;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+}
+
+#img_benefits{
+    width: 100%;
+}
+
+.principal {
+    background-color: #CCCCCC;
+    padding: 30px;
+    text-align: center;
+}
+
+.heading_maker {
+    color: #001bb5;
+}
+
+.Centralized-Title{
+    text-align: center;
+}
+
+.c_motto {
+    font-size: 20px;
+}
+
+.motto {
+    color: #001bb5;
+}
+
+.benefits{ 
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+#Yamaha_p {
+    text-align: center;
+}
+
+.itens {
+font-style: italic;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 18%;
+    margin-left: 5%;
+}
+
+#banner2 {
+    width: 50%;
+}
