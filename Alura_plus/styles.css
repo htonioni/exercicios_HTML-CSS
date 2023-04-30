@@ -99,3 +99,26 @@ body {
     padding: 2em;
 }
 
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__texto {
+    color: var(--branco-principal);
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 4%;
+    margin: 5em 0;
+}
+
+
+.lista__item {
+    font-weight: 700;
+    font-size: 32px;
+}
