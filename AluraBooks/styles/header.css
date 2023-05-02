@@ -36,6 +36,10 @@
     display: block;
 }
 
+.container__botao {
+    display: none;
+}
+
 .lista-menu__titulo,
 .lista-menu__item {
     padding: 1em;
@@ -44,7 +48,7 @@
 
 .lista-menu__titulo {
     color: var(--laranja);
-    font-family: var(--fonte-principal);
+    font-weight: 700;
 }
 
 .lista-menu__link {
