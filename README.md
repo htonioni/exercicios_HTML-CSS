@@ -9,9 +9,11 @@ O repositório está dividido em pastas, cada uma contendo um projeto diferente 
 
 Até o momento contem os seguintes projetos:
 
-* [Alura_plus](https://htonioni.github.io/exercicios_HTML-CSS/Alura_plus/): Projeto proposto no curso de HTML e CSS na plataforma Alura.
-* [Task_list](https://htonioni.github.io/exercicios_HTML-CSS/Task_list/): Projeto retirado do Youtube, também utilizado Javascript.
+* [AluraBooks](https://htonioni.github.io/exercicios_HTML-CSS/AluraBooks/): Responsividade com mobile-first - Loja de livros.
+* [Alura_plus](https://htonioni.github.io/exercicios_HTML-CSS/Alura_plus/): Modelo de Landing page Alura+
+* [Task_list](https://htonioni.github.io/exercicios_HTML-CSS/Task_list/): Projeto desafio iniciante
 * [Yamaha_dealer](https://htonioni.github.io/exercicios_HTML-CSS/Yamaha_dealer/): Projeto destualizado do curso de HTML e CSS na plataforma Alura.
+
 
 Dentro de cada pasta, há um arquivo `index.html` que é a página inicial do projeto, e um arquivo `style.css` que contém as folhas de estilo do projeto.
 
