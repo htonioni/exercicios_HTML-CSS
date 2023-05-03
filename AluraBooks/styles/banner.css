@@ -35,3 +35,8 @@
     background: url("../img/Pesquisa.svg") no-repeat;
     background-position: 1em;
 }
+
+.topicos__titulo {
+    font-weight: 300;
+    text-transform: uppercase;
+}
