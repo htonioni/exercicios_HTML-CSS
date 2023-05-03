@@ -31,6 +31,7 @@
 .card_botoes {
     display: flex;
     justify-content: space-between;
+    margin-top: 2em;
 }
 
 .botoes {
@@ -63,7 +64,7 @@
 }
 
 .botoes__item {
-    margin: 0 0.5em;
+    margin: 0 1em;
 }
 
 .botoes__ancora {
@@ -72,4 +73,16 @@
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
+}
+
+.descricao__titulo-card2 {
+    font-weight: 700;
+    color: var(--laranja);
+    margin: 0.5em 0;
+}
+
+.descricao__titulo2 {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0.5em 0;
 }
