@@ -67,6 +67,10 @@
     display:none;
 }
 
+.cabecalho__container-texto {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .container__titulo, .container__titulo--negrito {
         font-family: var(--fonte-secundaria);
@@ -109,5 +113,30 @@
     
     .opcoes__botao {
         display: none;
+    }
+}
+
+
+@media screen and (min-width:1728px) {
+
+    .cabecalho__container-texto {
+        display: block;
+    }
+
+    .cabecalho__container-link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+        font-size: 20px;
+        /* margin-right: 3em; */
+    }
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .opcoes {
+        margin-right: auto;
     }
 }

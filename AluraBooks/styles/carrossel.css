@@ -1,3 +1,6 @@
+@charset "UTF-8";
+
+
 .carrossel__titulo {
     background-color: var(--branco);
     color: var(--laranja);
@@ -120,4 +123,39 @@
         margin: 2em auto;
     }
 
+}
+
+@media screen and (min-width:1728px){
+    .carrossel__container {
+        display: flex;
+        margin: 0 20vw 3em 18vw;
+        
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .swiper {
+        width: 70%;
+    }
+
+    .descricao__titulo, .descricao__titulo-card2 {
+        font-size: 32px;
+        margin-bottom: 0.5em;
+    }
+
+    .descricao__texto {
+        font-size: 16px
+    }
+
+    .descricao {
+        margin-right: 1em;
+    }
+
+    .card {
+        width: 60%;
+        margin-left: 3em;
+        padding-right: 2em;
+    }
 }
