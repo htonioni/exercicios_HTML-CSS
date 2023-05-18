@@ -1,0 +1,55 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+
+:root {
+    --cor-de-fundo: #081b29;
+    --cor-hover: #00abf0;
+    --branco-fonte:#ededed;
+    --fonte-principal: 'Poppins', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte-principal);
+}
+
+body {
+    background: var(--cor-de-fundo);
+}
+
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    width: 100%;
+    background-color: rgb(21, 26, 25);
+    align-items: center;
+}
+
+.cabecalho__titulo {
+    color: var(--branco-fonte);
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+.cabecalho__menu .cabecalho__menu-item{
+    color: var(--branco-fonte);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 4em;
+    /* Efeito do hover */
+    transition: 0.5s;
+}
+
+.cabecalho__menu .cabecalho__menu-item:hover{
+    color: var(--cor-hover);
+}
+
