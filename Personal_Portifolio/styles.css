@@ -9,6 +9,39 @@
     --fonte-principal: 'Poppins', sans-serif;
 }
 
+@keyframes desliza-esquerda {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+}
+
+@keyframes pulsar {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+  
+.cabecalho__titulo, .homepage__conteudo {
+    animation: desliza-esquerda 1s ease-in-out;
+}
+
+.homepage__links {
+    animation: desliza-esquerda 1.5s ease-in-out;
+}
+
+.homepage__imagem {
+    animation: pulsar 2s;
+}
+
 
 * {
     margin: 0;
@@ -58,12 +91,13 @@ body {
 .homepage {
     display: flex;
     align-items: center;
-    height: 80vh;
+    height: 90vh;
     padding: 0 10%;
 }
 
 .homepage__conteudo {
     max-width: 50%;
+    margin-top: 7em;
 }
 
 .homepage__conteudo h1 {
@@ -120,4 +154,27 @@ body {
 .homepage__botao a:hover:nth-child(2) {
     transform: translate3d(30px, -30px, 0) scale(1.05);
     transition: 1s;
+}
+
+
+.homepage__links {
+    /* position: absolute; */
+    height: 10em;
+
+    padding: 100px 0 0 0;
+    background: yellow;
+}
+
+.homepage__links a {
+    margin-right: 10%;
+}
+
+.homepage__links a:hover {
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+
+.homepage__imagem {
+    
 }
