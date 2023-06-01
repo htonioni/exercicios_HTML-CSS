@@ -8,27 +8,7 @@
     --branco-fonte:#ededed;
     --fonte-principal: 'Poppins', sans-serif;
 }
-
-@keyframes desliza-esquerda {
-    from {
-      transform: translateX(-100%);
-    }
-    to {
-      transform: translateX(0);
-    }
-}
-
-@keyframes pulsar {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.2);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
+  
   
 .cabecalho__titulo, .homepage__conteudo {
     animation: desliza-esquerda 1s ease-in-out;
@@ -59,7 +39,7 @@ body {
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    padding: 20px 10%;
+    padding: 20px 10% 5px 10%;
     width: 100%;
     background-color: transparent;
     align-items: center;
@@ -93,6 +73,7 @@ body {
     align-items: center;
     height: 90vh;
     padding: 0 10%;
+    
 }
 
 .homepage__conteudo {
@@ -110,6 +91,11 @@ body {
     font-size: 32px;
     font-weight: 700;
     color: var(--cor-hover);
+}
+
+.homepage__conteudo i{
+    animation: ponto 1s infinite;
+    color: var(--branco-fonte);
 }
 
 .homepage__conteudo p{
@@ -148,21 +134,20 @@ body {
 }
 
 .homepage__botao a:hover:nth-child(1) {
-    transform: translate3d(-30px, -30px, 0) scale(1.05);
-    transition: 1s;
+    transform: translate3d(-20px, -20px, 0) scale(1.05);
+    transition: .5s;
 }
 .homepage__botao a:hover:nth-child(2) {
-    transform: translate3d(30px, -30px, 0) scale(1.05);
-    transition: 1s;
+    transform: translate3d(20px, -20px, 0) scale(1.05);
+    transition: .5s;
 }
 
 
 .homepage__links {
     /* position: absolute; */
+    display: flex;
     height: 10em;
-
     padding: 100px 0 0 0;
-    background: yellow;
 }
 
 .homepage__links a {
@@ -171,10 +156,44 @@ body {
 
 .homepage__links a:hover {
     transform: scale(1.5);
-    transition: 1s;
+    transition: 0.5s;
 }
 
 
-.homepage__imagem {
-    
+.homepage__imagem img{
+    width: 70vh;
+    margin-left: 10%;
+}
+
+
+/* KEY FRAMES - ANIMACAO  */
+
+@keyframes desliza-esquerda {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+}
+
+@keyframes pulsar {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes ponto {
+    0% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 1;
+    }
 }
