@@ -10,16 +10,14 @@
 }
   
   
-.cabecalho__titulo, .homepage__conteudo {
-    animation: desliza-esquerda 1s ease-in-out;
+.cabecalho__titulo{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: digitar 2s steps(40) 1s 1 normal both;
 }
 
-.homepage__links {
+.homepage__conteudo h1, .homepage__conteudo li{
     animation: desliza-esquerda 1.5s ease-in-out;
-}
-
-.homepage__imagem {
-    animation: pulsar 2s;
 }
 
 
@@ -73,19 +71,15 @@ body {
     align-items: center;
     height: 90vh;
     padding: 0 10%;
-    
 }
 
-.homepage__conteudo {
-    max-width: 50%;
-    margin-top: 7em;
-}
 
 .homepage__conteudo h1 {
     font-size: 40px;
     font-weight: 700;
     line-height: 1.2;
     text-align: center;
+    padding-bottom: 2.5em;
 }
 
 .homepage__conteudo strong {
@@ -93,66 +87,12 @@ body {
 }
 
 
-
-.homepage__conteudo p{
-    font-size: 16px;
-    margin: 1em 0 3em 0;
-}
-
-.homepage__botao {
+.homepage__conteudo li{
     display: flex;
-    justify-content: space-around;
-    width: 26em;
-    height: 4em;
-}
-
-.homepage__botao a {
-    position: relative;
-    text-decoration: none;
-    display: inline-flex;
-    width: 10em;
-    height: 100%;
-    border: 5px solid var(--cor-hover);
-    border-radius: 8px;
-    background: var(--cor-hover);
-    font-size: 19px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: var(--cor-de-fundo);
-    justify-content: center;
     align-items: center;
-    transition: .5s;
-}
-
-.homepage__botao a:nth-child(2) {
-    background: transparent;
-    color: var(--cor-hover);
-}
-
-.homepage__botao a:hover:nth-child(1) {
-    transform: translate3d(-20px, -20px, 0) scale(1.05);
-    transition: .5s;
-}
-.homepage__botao a:hover:nth-child(2) {
-    transform: translate3d(20px, -20px, 0) scale(1.05);
-    transition: .5s;
-}
-
-
-.homepage__links {
-    /* position: absolute; */
-    display: flex;
-    height: 10em;
-    padding: 100px 0 0 0;
-}
-
-.homepage__links a {
-    margin-right: 10%;
-}
-
-.homepage__links a:hover {
-    transform: scale(1.5);
-    transition: 0.5s;
+    gap: 1em;
+    margin-bottom: 1em;
+    font-size: 20px;
 }
 
 
@@ -174,22 +114,23 @@ body {
 }
 
 @keyframes pulsar {
-    0% {
-        transform: scale(1);
+    from {
+        transform: translateX(0%);
+      }
+    
+      to {
+        transform: translateX(100%);
+      }
     }
-    50% {
-        transform: scale(1.2);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
 
-@keyframes ponto {
-    0% {
-        opacity: 0;
+@keyframes digitar {
+    0% { 
+        width: 0;
+        height: 1.2em;
     }
-    80% {
-        opacity: 1;
+
+    100% { 
+        width: 30%;
+        height: 1.2em; 
     }
 }
