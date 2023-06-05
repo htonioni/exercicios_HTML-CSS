@@ -10,7 +10,14 @@
 }
   
   
-.cabecalho__titulo, .homepage__conteudo {
+.cabecalho__titulo {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: digitar 2s steps(40) 1s 1 normal both;
+}
+
+
+.homepage__conteudo {
     animation: desliza-esquerda 1s ease-in-out;
 }
 
@@ -195,5 +202,17 @@ body {
     }
     80% {
         opacity: 1;
+    }
+}
+
+@keyframes digitar {
+    0% { 
+        width: 0;
+        height: 1.2em;
+    }
+    
+    100% { 
+        width: 30%;
+        height: 1.2em; 
     }
 }
