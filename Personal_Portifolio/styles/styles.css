@@ -77,7 +77,6 @@ body {
     align-items: center;
     height: 90vh;
     padding: 0 10%;
-    
 }
 
 .homepage__conteudo {
@@ -164,7 +163,7 @@ body {
 
 
 .homepage__imagem img{
-    width: 85vh;
+    width: 100%;
     margin-left: 10%;
 }
 
@@ -210,5 +209,35 @@ body {
     100% { 
         width: 30%;
         height: 1.2em; 
+    }
+}
+
+
+/* RESPONSIVIDADE */
+
+
+@media screen and (max-width:900px){
+    .cabecalho__menu, .cabecalho__menu-item {
+        margin-left: auto;
+        font-size: auto;
+    }
+
+    .homepage {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .homepage__imagem img{
+        margin-left: 0;
+    }
+
+    .homepage__botao {
+        height: 10em;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .homepage__botao a {
+        width: 16em;
     }
 }

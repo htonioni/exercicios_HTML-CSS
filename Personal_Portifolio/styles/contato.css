@@ -81,7 +81,7 @@ body {
     font-weight: 700;
     line-height: 1.2;
     text-align: center;
-    padding-bottom: 2.5em;
+    padding-bottom: 1em;
 }
 
 .homepage__conteudo strong {
@@ -102,7 +102,7 @@ body {
 }
 
 .homepage__imagem img{
-    width: 85vh;
+    width: 45vw;
     margin-left: 10%;
 }
 
@@ -139,5 +139,29 @@ body {
     100% { 
         width: 30%;
         height: 1.2em; 
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .cabecalho__menu, .cabecalho__menu-item {
+        margin-left: auto;
+        font-size: auto;
+    }
+
+    .homepage {
+        flex-direction: column;
+        padding: 0 2em;
+    }
+
+    .homepage__imagem {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .homepage__imagem img{
+        margin-left: 0;
+        width: 100%;
+
     }
 }
