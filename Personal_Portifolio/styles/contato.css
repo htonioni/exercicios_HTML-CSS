@@ -16,10 +16,13 @@
     animation: digitar 2s steps(40) 1s 1 normal both;
 }
 
-.homepage__conteudo h1, .homepage__conteudo li{
+.homepage__conteudo{
     animation: desliza-esquerda 1.5s ease-in-out;
 }
 
+.homepage__imagem {
+    animation: pulsar 1.4s;
+}
 
 * {
     margin: 0;
@@ -34,7 +37,7 @@ body {
 }
 
 
-.cabecalho {
+.cabecalho{
     display: flex;
     justify-content: space-between;
     padding: 25px 10% 5px 10%;
@@ -43,7 +46,7 @@ body {
     align-items: center;
 }
 
-.cabecalho__titulo {
+.cabecalho__titulo{
     color: var(--branco-fonte);
     font-size: 27px;
     font-weight: 550;
@@ -57,7 +60,6 @@ body {
     font-size: 20px;
     font-weight: 500;
     margin-left: 4em;
-    /* Efeito do hover */
     transition: 1s;
 }
 
@@ -95,6 +97,9 @@ body {
     font-size: 20px;
 }
 
+.homepage__conteudo p{
+    margin-top: 2em;
+}
 
 .homepage__imagem img{
     width: 85vh;
@@ -114,14 +119,16 @@ body {
 }
 
 @keyframes pulsar {
-    from {
-        transform: translateX(0%);
-      }
-    
-      to {
-        transform: translateX(100%);
-      }
+    0% {
+        transform: scale(1);
     }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 
 @keyframes digitar {
     0% { 

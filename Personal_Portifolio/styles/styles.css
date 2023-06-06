@@ -9,13 +9,11 @@
     --fonte-principal: 'Poppins', sans-serif;
 }
   
-  
-.cabecalho__titulo {
+.cabecalho__titulo{
     overflow: hidden;
     white-space: nowrap;
     animation: digitar 2s steps(40) 1s 1 normal both;
 }
-
 
 .homepage__conteudo {
     animation: desliza-esquerda 1s ease-in-out;
@@ -73,7 +71,6 @@ body {
 .cabecalho__menu .cabecalho__menu-item:hover, .cabecalho__menu .home{
     color: var(--cor-hover);
 }
-
 
 .homepage {
     display: flex;
@@ -151,7 +148,6 @@ body {
 
 
 .homepage__links {
-    /* position: absolute; */
     display: flex;
     height: 10em;
     padding: 100px 0 0 0;
@@ -210,7 +206,7 @@ body {
         width: 0;
         height: 1.2em;
     }
-    
+
     100% { 
         width: 30%;
         height: 1.2em; 
