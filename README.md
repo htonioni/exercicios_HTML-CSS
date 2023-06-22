@@ -11,7 +11,8 @@ Até o momento contem os seguintes projetos:
 
 * [Personal Portifolio](https://htonioni.github.io/exercicios_HTML-CSS/Personal_Portifolio/index.html): Portifolio pessoal criado para um trabalho da UniFOA.
 * [AluraBooks](https://htonioni.github.io/exercicios_HTML-CSS/AluraBooks/): Responsividade com mobile-first - Loja de livros.
-* [Alura_plus](https://htonioni.github.io/exercicios_HTML-CSS/Alura_plus/): Modelo de Landing page Alura+.
+* [AluraPlus](https://htonioni.github.io/exercicios_HTML-CSS/Alura_plus/): Modelo de Landing page Alura+.
+* [Robotron 2000](https://htonioni.github.io/exercicios_HTML-CSS/Robotron_2000/): Interação Javascript com HTML + CSS
 * [Task_list](https://htonioni.github.io/exercicios_HTML-CSS/Task_list/): Projeto desafio iniciante.
 * [Yamaha_dealer](https://htonioni.github.io/exercicios_HTML-CSS/Yamaha_dealer/): Projeto destualizado do curso de HTML e CSS na plataforma Alura.
 
