@@ -9,12 +9,13 @@ O repositório está dividido em pastas, cada uma contendo um projeto diferente 
 
 Até o momento contem os seguintes projetos:
 
-* [Personal Portifolio](https://htonioni.github.io/exercicios_HTML-CSS/Personal_Portifolio/index.html): Portifolio pessoal criado para um trabalho da UniFOA.
-* [AluraBooks](https://htonioni.github.io/exercicios_HTML-CSS/AluraBooks/): Responsividade com mobile-first - Loja de livros.
-* [AluraPlus](https://htonioni.github.io/exercicios_HTML-CSS/Alura_plus/): Modelo de Landing page Alura+.
+* [Personal Portifolio](https://htonioni.github.io/exercicios_HTML-CSS/Personal_Portifolio/): Portifolio pessoal para projeto da UniFOA.
+* [AluraBooks](https://htonioni.github.io/exercicios_HTML-CSS/AluraBooks/): Responsividade com CSS e HTML utilizando método *mobile first*.
+* [Numero secreto](https://htonioni.github.io/exercicios_HTML-CSS/Numero_secreto/): Adivinhe o numero secreto através de comandos de voz! Utilizado: Javascript, HTML e CSS).
+* [AluraPlus](https://htonioni.github.io/exercicios_HTML-CSS/Alura_plus/): Modelo de Landing page de um curso chamado Alura+.
 * [Robotron 2000](https://htonioni.github.io/exercicios_HTML-CSS/Robotron_2000/): Interação Javascript com HTML + CSS
-* [Task_list](https://htonioni.github.io/exercicios_HTML-CSS/Task_list/): Projeto desafio iniciante.
-* [Yamaha_dealer](https://htonioni.github.io/exercicios_HTML-CSS/Yamaha_dealer/): Projeto destualizado do curso de HTML e CSS na plataforma Alura.
+* [Task_list](https://htonioni.github.io/exercicios_HTML-CSS/Task_list/): Projeto desafio nível - iniciante.
+* [Yamaha_dealer](https://htonioni.github.io/exercicios_HTML-CSS/Yamaha_dealer/): Projeto ***desatualizado*** do curso de HTML e CSS na plataforma Alura.
 
 Dentro de cada pasta, há um arquivo `index.html` que é a página inicial do projeto, e um arquivo `style.css` que contém as folhas de estilo do projeto.
 
