@@ -1,10 +1,21 @@
 function verificaSeChuteValido(chute) {
     const numero = +chute
+    const parar = "GAME OVER"
+    
     
 
     if (ChuteForInvalido(numero)) {
-        elementoChute.innerHTML += '<div>Valor Inválido</div>'
-        return 
+        if (chute.toUpperCase() === parar) {
+            document.body.innerHTML = `
+            <h2>GAME OVER!</h2>
+            <h3>O numero secreto era <span class="box">${numeroSecreto}</span></h3>
+            
+            <button id="jogar-novamente" class="btn-jogar">Jogar novamente </button>
+            `
+            document.body.style.backgroundColor = "black";
+        } else {
+            elementoChute.innerHTML += '<div>Valor Inválido</div>'
+        }
     };
 
     if (NumeroMaiorOuMenorDeadline(numero)) {
@@ -14,6 +25,7 @@ function verificaSeChuteValido(chute) {
         `
         return
     };
+
 
     if (numero === numeroSecreto) {
         document.body.innerHTML = `
