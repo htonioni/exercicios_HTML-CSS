@@ -89,6 +89,11 @@
         font-weight: 400;
         display: block;
     }
+
+    .container__linkado {
+        text-decoration: none;
+        color: var(--preto);
+    }
     .container__titulo--negrito {
         font-weight: 700;
     }
