@@ -2,10 +2,10 @@
 
 :root {
   --bg-color: #ffffff;
-  --button-color: #326589;
-  --text-title-color: #fc6621;
-  --text-description-color: #fc6621;
-  --text-price-color: #002f52;
+  --button-color: #333333;
+  --text-title-color: #991102;
+  --text-description-color: #991102;
+  --text-price-color: #333333;
   --text-author-color: #858585;
   --text-tag-color: #9c9c9c;
 }
