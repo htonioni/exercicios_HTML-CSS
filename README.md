@@ -9,13 +9,14 @@ O repositório está dividido em pastas, cada uma contendo um projeto diferente 
 
 Até o momento contem os seguintes projetos:
 
-* [Personal Portifolio](https://htonioni.github.io/exercicios_HTML-CSS/Personal_Portifolio/): Portifolio pessoal para projeto da UniFOA.
-* [AluraBooks](https://htonioni.github.io/exercicios_HTML-CSS/AluraBooks/): Responsividade com CSS e HTML utilizando método *mobile first*.
-* [Numero secreto](https://htonioni.github.io/exercicios_HTML-CSS/Numero_secreto/): Adivinhe o numero secreto através de comandos de voz! Utilizado: Javascript, HTML e CSS).
-* [AluraPlus](https://htonioni.github.io/exercicios_HTML-CSS/Alura_plus/): Modelo de Landing page de um curso chamado Alura+.
+* [Personal Portifolio](https://htonioni.github.io/exercicios_HTML-CSS/Personal_Portifolio/): Portifolio pessoal para projeto da UniFOA - HTML e CSS.
+* [AluraBooks](https://htonioni.github.io/exercicios_HTML-CSS/AluraBooks/): Loja de livros relacionados a programação com **Responsividade** - HTML, CSS, JS e *mobile first*.
+* [Numero secreto](https://htonioni.github.io/exercicios_HTML-CSS/Numero_secreto/): Adivinhe o numero secreto através de comandos de voz - HTML, CSS e Javascript.
+* [Alura Midi](https://htonioni.github.io/exercicios_HTML-CSS/Alura_Midi/index.html): Instrumento musical que reproduz sons de uma bateria - HTML, CSS e Javascript.
+* [AluraPlus](https://htonioni.github.io/exercicios_HTML-CSS/Alura_plus/): Modelo de Landing page de um curso chamado Alura+ - HTML e CSS.
 * [Robotron 2000](https://htonioni.github.io/exercicios_HTML-CSS/Robotron_2000/): Interação Javascript com HTML + CSS
 * [Task_list](https://htonioni.github.io/exercicios_HTML-CSS/Task_list/): Projeto desafio nível - iniciante.
-* [Yamaha_dealer](https://htonioni.github.io/exercicios_HTML-CSS/Yamaha_dealer/): Projeto ***desatualizado*** do curso de HTML e CSS na plataforma Alura.
+
 
 Dentro de cada pasta, há um arquivo `index.html` que é a página inicial do projeto, e um arquivo `style.css` que contém as folhas de estilo do projeto.
 
